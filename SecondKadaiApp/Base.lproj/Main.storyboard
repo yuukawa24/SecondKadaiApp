@@ -69,7 +69,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="川島" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1vk-vv-4F9">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1vk-vv-4F9">
                                 <rect key="frame" x="157" y="221" width="100" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="N3Q-Sk-SFl"/>
@@ -101,6 +101,9 @@
                             <constraint firstItem="WbX-xz-cbW" firstAttribute="centerX" secondItem="91k-UP-UO4" secondAttribute="centerX" id="ztk-tR-a0h"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="1vk-vv-4F9" id="0MG-Jo-BAw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j9n-zj-VrO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
